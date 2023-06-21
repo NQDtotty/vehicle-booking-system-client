@@ -1,0 +1,29 @@
+.intro-content h2 {
+    color: #0E2954;
+    font-family: Bradley Hand, cursive;
+    margin-bottom: 30px;
+}
+
+.intro-content p {
+    padding: 0 50px;
+    color: #333;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.intro-img img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1025px) {
+    .intro-content h2 {
+        font-size: 1.6rem;
+    }
+
+    .intro-content p {
+        padding: 0;
+        color: #333;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+}

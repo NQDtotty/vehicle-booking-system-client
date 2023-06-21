@@ -1,0 +1,43 @@
+.search-bar {
+    padding: 8px 15px;
+    border-radius: 20px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
+    border: 1px solid #0E2954;
+}
+
+.form-group i {
+    font-size: 1.9rem;
+    color: #0E2954;
+}
+
+.form-group h6 {
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.form-group input {
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.form-group select {
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+button.search-btn {
+    border-radius: 50px;
+    background-color: #0E2954;
+    padding: 7px 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+button.search-btn:hover {
+    background-color: #0E2954;
+    color: #fff;
+}

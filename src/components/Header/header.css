@@ -1,0 +1,117 @@
+header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header-logo img {
+    width: 50%;
+    object-fit: contain;
+}
+
+.nav-menu {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.nav-menu .nav-item a {
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.active-link {
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: #0E2954;
+    color: #fff !important;
+}
+
+.nav-btn .secondary-btn {
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.nav-btn .primary-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 5px 20px;
+}
+
+.nav-btn .primary-btn:hover {
+    background-color: #0E2954;
+    color: #fff;
+}
+
+.menu-mobile {
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-btn .secondary-btn {
+        font-size: 0.9rem;
+    }
+
+    .nav-btn .primary-btn {
+        font-size: 0.9rem;
+    }
+
+    .header-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 100%;
+        background-color: #fff;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 99;
+        line-height: 40px;
+    }
+
+    .nav-menu .nav-item a {
+        font-size: 1.1rem;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+
+    .show-menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .nav-btn .secondary-btn {
+        font-size: 0.7rem;
+    }
+
+    .nav-btn .primary-btn {
+        font-size: 0.7rem;
+    }
+
+    .nav-menu .nav-item a {
+        font-size: 1rem;
+    }
+}
